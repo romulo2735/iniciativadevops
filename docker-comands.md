@@ -6,3 +6,9 @@
 
 - removendo imagens não utilizadas:
   - `docker images prune`
+
+- criando um tag para a imagem:
+  - `docker tag ubuntu-curl <usuario>/<nome-do-container>:<versão>`
+
+- publicando uma imagem no register:
+  - `docker push romulo27/ubuntu-curl:v1`
