@@ -55,7 +55,7 @@
   - `kubectl port-forward pod/meupod 8080:80`
 
  - listando o pod especifico:
-   - `kubectl get pods -l app=green`
+  - `kubectl get pods -l app=green`
 
 - criando o relicaset:
   - `kubectl apply -f .\replicaset.yaml`
